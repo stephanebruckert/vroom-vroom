@@ -14,7 +14,7 @@ class Menu: NSObject {
     
     override init() {
         let menu = NSMenu()
-        statusItem.title = "KBMouse"
+        statusItem.title = "Vrooooooom"
         statusItem.highlightMode = true
         statusItem.menu = menu
         
@@ -22,6 +22,10 @@ class Menu: NSObject {
         menuItem.title = "Quit"
         menuItem.action = Selector("quit:")
         menu.addItem(menuItem)
+    }
+    
+    func changeTitle(speed : String) {
+        statusItem.title = speed
     }
 }
 

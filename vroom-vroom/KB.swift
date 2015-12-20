@@ -20,6 +20,7 @@ class Keyboard: NSObject
     func keyDownEvent(event: NSEvent!)
     {
         fifo.push(NSDate())
+        Speed().update(fifo)
     }
     
 }

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F47FD18E1C25C723001D16A1 /* wpm-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wpm-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47FD18E1C25C723001D16A1 /* vroom-vroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vroom-vroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47FD1911C25C723001D16A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F47FD1931C25C723001D16A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F47FD1961C25C724001D16A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F47FD1851C25C723001D16A1 = {
 			isa = PBXGroup;
 			children = (
-				F47FD1901C25C723001D16A1 /* wpm-menubar */,
+				F47FD1901C25C723001D16A1 /* vroom-vroom */,
 				F47FD18F1C25C723001D16A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		F47FD18F1C25C723001D16A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F47FD18E1C25C723001D16A1 /* wpm-menubar.app */,
+				F47FD18E1C25C723001D16A1 /* vroom-vroom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F47FD1901C25C723001D16A1 /* wpm-menubar */ = {
+		F47FD1901C25C723001D16A1 /* vroom-vroom */ = {
 			isa = PBXGroup;
 			children = (
 				F47FD1911C25C723001D16A1 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				F49EF0D01C26DDB300993B61 /* KB.swift */,
 				F49EF0D21C26DDD500993B61 /* Menu.swift */,
 			);
-			path = "wpm-menubar";
+			name = "vroom-vroom";
+			path = "vroom-vroom";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F47FD18D1C25C723001D16A1 /* wpm-menubar */ = {
+		F47FD18D1C25C723001D16A1 /* vroom-vroom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F47FD19B1C25C724001D16A1 /* Build configuration list for PBXNativeTarget "wpm-menubar" */;
+			buildConfigurationList = F47FD19B1C25C724001D16A1 /* Build configuration list for PBXNativeTarget "vroom-vroom" */;
 			buildPhases = (
 				F47FD18A1C25C723001D16A1 /* Sources */,
 				F47FD18B1C25C723001D16A1 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "wpm-menubar";
-			productName = "wpm-menubar";
-			productReference = F47FD18E1C25C723001D16A1 /* wpm-menubar.app */;
+			name = "vroom-vroom";
+			productName = "vroom-vroom";
+			productReference = F47FD18E1C25C723001D16A1 /* vroom-vroom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F47FD1891C25C723001D16A1 /* Build configuration list for PBXProject "wpm-menubar" */;
+			buildConfigurationList = F47FD1891C25C723001D16A1 /* Build configuration list for PBXProject "vroom-vroom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F47FD18D1C25C723001D16A1 /* wpm-menubar */,
+				F47FD18D1C25C723001D16A1 /* vroom-vroom */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +240,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "wpm-menubar/Info.plist";
+				INFOPLIST_FILE = "vroom-vroom/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sb.wpm-menubar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sb.vroom-vroom";
+				PRODUCT_NAME = "vroom-vroom";
 			};
 			name = Debug;
 		};
@@ -251,17 +252,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "wpm-menubar/Info.plist";
+				INFOPLIST_FILE = "vroom-vroom/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sb.wpm-menubar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sb.vroom-vroom";
+				PRODUCT_NAME = "vroom-vroom";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F47FD1891C25C723001D16A1 /* Build configuration list for PBXProject "wpm-menubar" */ = {
+		F47FD1891C25C723001D16A1 /* Build configuration list for PBXProject "vroom-vroom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F47FD1991C25C724001D16A1 /* Debug */,
@@ -270,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F47FD19B1C25C724001D16A1 /* Build configuration list for PBXNativeTarget "wpm-menubar" */ = {
+		F47FD19B1C25C724001D16A1 /* Build configuration list for PBXNativeTarget "vroom-vroom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F47FD19C1C25C724001D16A1 /* Debug */,

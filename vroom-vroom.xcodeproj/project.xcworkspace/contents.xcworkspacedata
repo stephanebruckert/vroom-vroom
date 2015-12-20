@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:wpm-menubar.xcodeproj">
+      location = "self:/Users/stephane/Code/obj-c/vroom-vroom/vroom-vroom.xcodeproj">
    </FileRef>
 </Workspace>

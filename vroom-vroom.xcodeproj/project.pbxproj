@@ -12,6 +12,7 @@
 		F47FD1971C25C724001D16A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47FD1951C25C724001D16A1 /* MainMenu.xib */; };
 		F49EF0D11C26DDB300993B61 /* KB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EF0D01C26DDB300993B61 /* KB.swift */; };
 		F49EF0D31C26DDD500993B61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EF0D21C26DDD500993B61 /* Menu.swift */; };
+		F4A923D91C26EA4D000EF297 /* FIFOQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A923D81C26EA4D000EF297 /* FIFOQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F47FD1981C25C724001D16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49EF0D01C26DDB300993B61 /* KB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KB.swift; sourceTree = "<group>"; };
 		F49EF0D21C26DDD500993B61 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F4A923D81C26EA4D000EF297 /* FIFOQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIFOQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,8 @@
 				F47FD1981C25C724001D16A1 /* Info.plist */,
 				F49EF0D01C26DDB300993B61 /* KB.swift */,
 				F49EF0D21C26DDD500993B61 /* Menu.swift */,
+				F4A923D81C26EA4D000EF297 /* FIFOQueue.swift */,
 			);
-			name = "vroom-vroom";
 			path = "vroom-vroom";
 			sourceTree = "<group>";
 		};
@@ -137,6 +139,7 @@
 			files = (
 				F49EF0D31C26DDD500993B61 /* Menu.swift in Sources */,
 				F49EF0D11C26DDB300993B61 /* KB.swift in Sources */,
+				F4A923D91C26EA4D000EF297 /* FIFOQueue.swift in Sources */,
 				F47FD1921C25C723001D16A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,11 +15,11 @@ class Keyboard: NSObject
 {
     private override init(){}
     
+    var fifo = FIFOQueue<NSDate>()
     
     func keyDownEvent(event: NSEvent!)
     {
-        print(event.keyCode)
-        
+        fifo.push(NSDate())
     }
     
 }
